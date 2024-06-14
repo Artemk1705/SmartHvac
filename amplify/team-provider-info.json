@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smarthvac-dev-0027d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::246735432813:role/amplify-smarthvac-dev-0027d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::246735432813:role/amplify-smarthvac-dev-0027d-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
+      "UnauthRoleName": "amplify-smarthvac-dev-0027d-unauthRole",
+      "StackName": "amplify-smarthvac-dev-0027d",
+      "StackId": "arn:aws:cloudformation:us-east-1:246735432813:stack/amplify-smarthvac-dev-0027d/a995e2f0-2789-11ef-9e61-0affc128f0b5",
+      "AmplifyAppId": "d1m6iug80uc28d"
+    },
+    "categories": {
+      "function": {
+        "ScheduleFunction": {
+          "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
+          "s3Key": "amplify-builds/ScheduleFunction-3353596e543255654579-build.zip"
+        },
+        "DiscountFunction": {
+          "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
+          "s3Key": "amplify-builds/DiscountFunction-32535336355753677432-build.zip"
+        },
+        "SubscribeFunction": {
+          "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
+          "s3Key": "amplify-builds/SubscribeFunction-4a79513054424e353547-build.zip"
+        },
+        "CareerFunction": {
+          "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
+          "s3Key": "amplify-builds/CareerFunction-3952697253475142542f-build.zip"
+        }
+      },
+      "api": {
+        "Schedule": {},
+        "Discount": {},
+        "Subscription": {},
+        "Careers": {}
+      }
+    }
+  }
+}

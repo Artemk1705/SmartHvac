@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/subs": {
+      "name": "/subs",
+      "lambdaFunction": "SubscribeFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

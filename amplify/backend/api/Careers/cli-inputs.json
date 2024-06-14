@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/careers": {
+      "name": "/careers",
+      "lambdaFunction": "CareerFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

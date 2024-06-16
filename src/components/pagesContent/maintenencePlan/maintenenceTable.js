@@ -82,28 +82,39 @@ const data = [
 ];
 
 const MaintenanceTable = () => (
-  <div className="table_container">
-    <table className="maintenance_table">
-      <tbody>
-        {data.map((row, index) => (
-          <tr
-            key={index}
-            className={
-              index === 0
-                ? "header-row"
-                : index % 2 === 0
-                ? "row-even"
-                : "row-odd"
-            }
-          >
-            <td className="cell-bronze">{row.bronze}</td>
-            <td className="cell-silver">{row.silver}</td>
-            <td className="cell-gold">{row.gold}</td>
-            <td className="cell-platinum">{row.platinum}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+  <div className="table_plan_container">
+    <div className="column">
+      <div className="header-row">Bronze</div>
+      {data.slice(1).map((row, index) => (
+        <div key={index} className={index % 2 === 0 ? "row-even" : "row-odd"}>
+          {row.bronze}
+        </div>
+      ))}
+    </div>
+    <div className="column">
+      <div className="header-row">Silver</div>
+      {data.slice(1).map((row, index) => (
+        <div key={index} className={index % 2 === 0 ? "row-even" : "row-odd"}>
+          {row.silver}
+        </div>
+      ))}
+    </div>
+    <div className="column">
+      <div className="header-row">Gold</div>
+      {data.slice(1).map((row, index) => (
+        <div key={index} className={index % 2 === 0 ? "row-even" : "row-odd"}>
+          {row.gold}
+        </div>
+      ))}
+    </div>
+    <div className="column">
+      <div className="header-row">Platinum</div>
+      {data.slice(1).map((row, index) => (
+        <div key={index} className={index % 2 === 0 ? "row-even" : "row-odd"}>
+          {row.platinum}
+        </div>
+      ))}
+    </div>
   </div>
 );
 

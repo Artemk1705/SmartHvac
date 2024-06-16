@@ -27,6 +27,7 @@
   margin-top: 100px;
   font-family: GothamPro-Black;
   letter-spacing: 2px;
+  font-size: 1.65em;
 }
 .plan_title_block {
   display: flex;
@@ -43,18 +44,21 @@
 .plan_par_title {
   width: 80vw;
   margin-top: 0px;
+  font-size: 1.25em;
 }
 .plan_card {
-  width: 22vw;
+  width: 20vw;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 20px 10px rgba(160, 157, 157, 0.796);
+  box-shadow: 0px 0px 10px 5px rgba(160, 157, 157, 0.796);
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
   margin-bottom: 20px;
 }
-
+.plan_card:hover {
+  box-shadow: 0px 0px 20px 10px rgba(129, 75, 120, 0.518);
+}
 .plan_card_title {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -67,7 +71,6 @@
 }
 .plan_card_rec {
   border-radius: 20px;
-
   padding: 6px 7px;
 }
 .bronze {
@@ -164,17 +167,25 @@
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #9c9fa2be;
+  background-image: linear-gradient(
+    0deg,
+    rgba(123, 30, 52, 0.743),
+    rgb(76, 44, 128)
+  );
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 .toggle_button:hover {
-  background-color: #24272a;
+  background-image: linear-gradient(
+    0deg,
+    rgba(123, 30, 52, 0.75),
+    rgba(76, 44, 128, 0.75)
+  );
 }
 .explanation_title_quest {
   margin-bottom: 100px;
@@ -229,21 +240,20 @@
 }
 .table_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 .table_cont {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .maintenance_table {
-  width: 80vw;
+  width: 100vw;
   border-collapse: separate;
-  border-spacing: 15px;
+  border-spacing: 4.25vw 15px;
 }
-
 .maintenance_table td {
   padding: 20px;
   text-align: center;
@@ -253,7 +263,7 @@
   font-size: 1.25em;
 }
 .row-even {
-  background-color: #f9f9f9;
+  background-color: #c8c1c11c;
 }
 
 .row-odd {
@@ -266,7 +276,7 @@
 .cell-platinum {
   box-shadow: 0px 0px 5px 2.5px rgba(160, 157, 157, 0.648);
   text-align: center;
-  width: 19vw;
+  width: 20vw;
   border-radius: 15px;
 }
 
@@ -352,6 +362,31 @@ form button {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+.table_plan_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.column {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.row-even,
+.row-odd,
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2.5px rgba(160, 157, 157, 0.648);
+  text-align: center;
+  width: 19.6vw;
+  height: 5vh;
+  border-radius: 15px;
+  margin: 0.5vw 2vw;
+  padding: 5px;
 }
 
 @keyframes slideIn {

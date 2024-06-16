@@ -66,12 +66,11 @@ function Aboutpage() {
   });
   return (
     <div className="about_page">
-      <div className="welcome_block">
+      <div className="welcome_abot_block">
         <h1 className="welcome_text">
           Welcome to Smart <nav className="hvac_text">HVAC</nav>
         </h1>
         <div className="arrow_block">
-          <div className="scroll_d">SCROLL DAWN</div>
           <div className="about_arrow"></div>
         </div>
       </div>

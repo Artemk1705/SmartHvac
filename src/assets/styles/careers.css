@@ -68,7 +68,7 @@ input:-webkit-autofill:active {
   width: 65%;
   font-size: 22px;
   font-weight: 650;
-  animation: anim_title_p 4s;
+  animation: anim_title_p 3s;
 }
 @keyframes anim_title_h {
   0%,
@@ -79,7 +79,7 @@ input:-webkit-autofill:active {
 .prev_h {
   font-size: 50px;
   width: 50%;
-  animation: anim_title_h 4s;
+  animation: anim_title_h 3s;
 }
 .position_block {
   border-top: 2px solid rgb(240, 248, 255);

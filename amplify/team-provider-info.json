@@ -19,7 +19,7 @@
         },
         "DiscountFunction": {
           "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
-          "s3Key": "amplify-builds/DiscountFunction-32535336355753677432-build.zip"
+          "s3Key": "amplify-builds/DiscountFunction-48637730656c33375257-build.zip"
         },
         "SubscribeFunction": {
           "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
@@ -27,7 +27,7 @@
         },
         "CareerFunction": {
           "deploymentBucketName": "amplify-smarthvac-dev-0027d-deployment",
-          "s3Key": "amplify-builds/CareerFunction-3952697253475142542f-build.zip"
+          "s3Key": "amplify-builds/CareerFunction-337a3478767249386a34-build.zip"
         }
       },
       "api": {

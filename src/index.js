@@ -13,6 +13,15 @@ import Schedule from "./components/pages/schedule";
 import Financing from "./components/pages/financing";
 import Products from "./components/pages/porducts";
 import MaintenancePlan from "./components/pages/mainPlan";
+import Acmaintenance from "./components/pagesContent/mainPageContent/serv/AC_M";
+import Acrep from "./components/pagesContent/mainPageContent/serv/Ac_repl";
+import Acrepl from "./components/pagesContent/mainPageContent/serv/Ac_repl";
+import Mininst from "./components/pagesContent/mainPageContent/serv/Minspinst";
+import Minrep from "./components/pagesContent/mainPageContent/serv/Minsprep";
+import Furrep from "./components/pagesContent/mainPageContent/serv/Furrep";
+import Fur from "./components/pagesContent/mainPageContent/serv/Fur";
+import Maint from "./components/pagesContent/mainPageContent/serv/Maint";
+import Emerg from "./components/pagesContent/mainPageContent/serv/Emerg";
 
 Amplify.configure(amplifyconfig);
 
@@ -29,6 +38,15 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/MaintenancePlan" element={<MaintenancePlan />} />
         <Route path="/careerforms/Servform" element={<Servform />} />
+        <Route path="/serv/AC_M" element={<Acmaintenance />} />
+        <Route path="/serv/AC_rep" element={<Acrep />} />
+        <Route path="/serv/AC_repl" element={<Acrepl />} />
+        <Route path="/serv/Minspinst" element={<Mininst />} />
+        <Route path="/serv/Minsprep" element={<Minrep />} />
+        <Route path="/serv/Furrep" element={<Furrep />} />
+        <Route path="/serv/Fur" element={<Fur />} />
+        <Route path="/serv/Maint" element={<Maint />} />
+        <Route path="/serv/Emerg" element={<Emerg />} />
       </Routes>
     </div>
   );

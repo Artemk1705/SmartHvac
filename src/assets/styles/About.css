@@ -1,6 +1,7 @@
 :root {
   --index: calc(1vw + 0.6vh);
 }
+
 .partners {
   display: flex;
   justify-content: center;
@@ -22,6 +23,7 @@
 .about_block {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100vw;
   margin: 7.5vw 5vw 0 0vw;
   margin-bottom: 5vw;
@@ -75,6 +77,7 @@
   font-size: 1.2em;
   width: 30vw;
   margin-bottom: 20vh;
+  line-height: 35px;
 }
 .title_h_block {
   display: flex;
@@ -91,7 +94,7 @@
 @keyframes hoverEffect {
 }
 .bubble_title {
-  width: 97.5vw;
+  width: 95vw;
   border-radius: 15px;
   padding: 20px;
   transition: 0.5s ease-in;
@@ -104,6 +107,7 @@
   justify-content: space-evenly;
   max-height: 350px;
   margin-bottom: 20vh;
+  line-height: 35px;
 }
 
 .bubble_block3 {
@@ -115,8 +119,9 @@
   padding: 20px;
   height: auto;
   transition: 0.5s ease-in;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 20vh;
+  line-height: 35px;
 }
 .welcome_text {
   text-align: center;
@@ -133,7 +138,7 @@
 
 .table {
   border-collapse: collapse;
-  width: 100vw;
+  width: 95vw;
   border: 1px solid black;
   margin: 10px 0px 10px 0%;
   font-family: "Roboto", sans-serif;
@@ -171,6 +176,8 @@
   max-width: 350px;
 }
 .chart_block {
+  border-radius: 15px;
+  width: 95vw;
   margin-bottom: 20vh;
   color: white;
   background-image: linear-gradient(0deg, rgb(123, 30, 51), rgb(76, 44, 128));
@@ -180,6 +187,7 @@
   padding: 20px 20px 20px 20px;
   margin-top: 30px;
   font-weight: 700;
+  margin-right: 2vw;
 }
 .hvac_text {
   color: rgb(213, 52, 52);
@@ -199,6 +207,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 5vw;
 }
 
 .scroll_d {

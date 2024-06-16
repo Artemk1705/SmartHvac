@@ -37,15 +37,20 @@ function Footer() {
       </div>
       <div className="footer_page_navigation">
         <div className="footer_page_navigation_title">Page Navigation</div>
-        <Link to="/schedule">
+        <a href="https://book.housecallpro.com/book/Smart-HVAC-LLC/873f1cd3570a4061a22cdf1c843d46ea?v2=true">
           <div className="sch_foot">GET SCHEDULE</div>
-        </Link>
+        </a>
         <Link to="/">
           <div className="main_foot">MAIN</div>
         </Link>
         <Link to="/MaintenancePlan">
           <div className="main_foot">MAINTENANCE PLAN</div>
         </Link>
+        {/*
+        <Link to="/schedule">
+          <div className="sch_foot">GET SCHEDULE</div>
+        </Link>
+  */}
         <Link to="/about">
           <div className="about_foot">ABOUT</div>
         </Link>

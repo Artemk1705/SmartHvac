@@ -1464,9 +1464,9 @@ code {
     margin-right: 2vw;
   }
   .card {
-    width: calc(var(--index) * 37);
-    height: calc(var(--index) * 55);
-    margin-left: calc(var(--index) * 1.5);
+    margin: 25px 0 40px 11.5vw;
+    min-width: 70vw;
+    width: 70vw;
   }
   .card_container {
     margin-bottom: 10vh;

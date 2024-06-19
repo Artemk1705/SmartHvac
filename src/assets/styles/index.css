@@ -1562,7 +1562,7 @@ code {
   .card {
     width: calc(var(--index) * 38);
     height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 4.25);
+    margin-left: calc(var(--index) * 1.25);
   }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
@@ -1573,6 +1573,11 @@ code {
   }
 }
 @media screen and (max-width: 410px) {
+  .card {
+    width: calc(var(--index) * 38);
+    height: calc(var(--index) * 60);
+    margin-left: calc(var(--index) * 4.25);
+  }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
   .swiper-horizontal > .swiper-pagination-bullets,

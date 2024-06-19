@@ -1464,9 +1464,9 @@ code {
     margin-right: 2vw;
   }
   .card {
-    margin: 25px 0 40px 11.5vw;
-    min-width: 70vw;
-    width: 70vw;
+    width: calc(var(--index) * 38);
+    height: calc(var(--index) * 100);
+    margin-left: calc(var(--index) * 0);
   }
   .card_container {
     margin-bottom: 10vh;
@@ -1555,7 +1555,7 @@ code {
     font-size: 9px;
   }
   .button_get_sch {
-    margin-top: -8.5vh;
+    margin-top: -11.5vh;
   }
 }
 @media screen and (max-width: 420px) {

@@ -1549,7 +1549,7 @@ code {
   .card {
     width: calc(var(--index) * 38);
     height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 4.25);
+    margin-left: calc(var(--index) * 2.25);
   }
   .Slog {
     font-size: 9px;
@@ -1559,6 +1559,11 @@ code {
   }
 }
 @media screen and (max-width: 420px) {
+  .card {
+    width: calc(var(--index) * 38);
+    height: calc(var(--index) * 60);
+    margin-left: calc(var(--index) * 4.25);
+  }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
   .swiper-horizontal > .swiper-pagination-bullets,

@@ -33,7 +33,7 @@ const reviews = [
 const ReviewBlock = () => {
   const [currentStartIndex, setCurrentStartIndex] = useState(0);
   const [fading, setFading] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 450);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1100);
 
   useEffect(() => {
     const handleResize = () => {
@@ -59,15 +59,18 @@ const ReviewBlock = () => {
     return () => clearInterval(interval);
   }, [currentStartIndex, isMobile]);
 
+  const displayedReviews = reviews.slice(
+    currentStartIndex,
+    currentStartIndex + (isMobile ? 1 : 3)
+  );
+
   return (
     <div className="review-block">
-      {reviews
-        .slice(currentStartIndex, currentStartIndex + (isMobile ? 1 : 3))
-        .map((review, index) => (
-          <div key={index} className={`review ${fading ? "fading" : ""}`}>
-            {review.text}
-          </div>
-        ))}
+      {displayedReviews.map((review, index) => (
+        <div key={index} className={`review ${fading ? "fading" : ""}`}>
+          {review.text}
+        </div>
+      ))}
     </div>
   );
 };

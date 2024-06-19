@@ -141,6 +141,9 @@
   .footer_block {
     padding: 10px 0;
   }
+  .auth_licence_block {
+    white-space: nowrap;
+  }
 }
 @media screen and (max-width: 450px) {
   .footer_block {

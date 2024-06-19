@@ -421,6 +421,7 @@ code {
   z-index: 4;
   padding: 30px 30px 30px 20px;
 }
+
 .burger-line {
   z-index: 3;
   width: 40px;
@@ -428,6 +429,7 @@ code {
   background-color: rgb(83, 83, 84);
   transition: opacity 0.3s ease-in-out;
 }
+
 .burger.open .burger-line:nth-child(1) {
   opacity: 0;
 }
@@ -1231,11 +1233,7 @@ code {
     margin-left: 15px;
     margin-top: 0%;
   }
-  .logo_photo {
-    width: 250px;
-    margin-top: 5%;
-    margin-left: 100px;
-  }
+
   .p_logo {
     font-size: smaller;
     margin-left: -45px;
@@ -1253,14 +1251,20 @@ code {
   .review-block {
     font-size: 15px;
   }
+  .logo_photo {
+    top: 35px;
+    left: 35vw;
+    width: 250px;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .card {
-    width: 35vw;
-    min-width: 35vw;
-    margin: 25px 0px 40px 3.5vw;
-    min-height: 500px;
-    max-height: 500px;
+    width: calc(var(--index) * 23);
+    height: calc(var(--index) * 38);
+    margin-left: calc(var(--index) * 1.5);
+  }
+  .logo_photo {
+    width: 250px;
   }
 }
 @media screen and (max-width: 725px) {
@@ -1381,7 +1385,7 @@ code {
 }
 @media screen and (max-width: 450px) {
   .nav {
-    height: 100px;
+    height: 65px;
   }
   .name_Inp,
   .email_Inp {
@@ -1448,22 +1452,21 @@ code {
   }
   .button_get_sch {
     margin-left: 25vw;
-    margin-top: -6vh;
+    margin-top: -5vh;
     margin-bottom: 9.5%;
   }
   .logo_photo {
-    top: -20px;
-    left: 11vw;
-    width: 30%;
+    top: 0px;
+    left: 40.5vw;
+    width: 20%;
   }
   .swiper-button-next {
     margin-right: 2vw;
   }
   .card {
-    width: 70vw;
-    height: 70vh;
-    min-width: 70vw;
-    margin: 25px 0px 40px 11.5vw;
+    width: calc(var(--index) * 37);
+    height: calc(var(--index) * 55);
+    margin-left: calc(var(--index) * 5);
   }
   .card_container {
     margin-bottom: 10vh;
@@ -1526,6 +1529,16 @@ code {
   .text_welc {
     font-size: 1em;
   }
+
+  .burger-line {
+    z-index: 3;
+    width: 35px;
+    height: 3px;
+  }
+  .burger-lines {
+    left: 10px;
+    top: 3px;
+  }
 }
 @media screen and (max-width: 430px) {
   .text_block {
@@ -1536,6 +1549,11 @@ code {
   .Slog {
     font-size: 9px;
   }
+  .button_get_sch {
+    margin-left: 25vw;
+    margin-top: -7vh;
+    margin-bottom: 9.5%;
+  }
 }
 @media screen and (max-width: 420px) {
   .swiper-pagination-fraction,
@@ -1544,11 +1562,6 @@ code {
   .swiper-pagination-bullets.swiper-pagination-horizontal {
     max-width: 50%;
     margin-left: 25vw;
-  }
-  .card {
-    min-height: 75vw;
-    width: 75vw;
-    margin: 25px 0px 40px 8.5vw;
   }
 }
 @media screen and (max-width: 410px) {

@@ -74,8 +74,8 @@
 
 @media screen and (max-width: 768px) {
   .p_service1 {
+    background-color: rgba(30, 32, 93, 0.951);
     position: relative;
-    background: #6122b9;
     border-radius: 50px;
     width: 75vw;
     padding: 20px;
@@ -86,8 +86,8 @@
   }
 
   .p_service2 {
+    background-color: rgba(94, 18, 43, 0.961);
     position: relative;
-    background: #6122b9;
     border-radius: 50px;
     width: 75vw;
     padding: 20px;
@@ -105,6 +105,6 @@
   }
 
   .sched_body {
-    margin-top: 75px;
+    margin-top: 150px;
   }
 }

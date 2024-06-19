@@ -1373,6 +1373,11 @@ code {
   .main_text {
     font-size: 15px;
   }
+  .logo_photo {
+    top: -20px;
+    left: 11vw;
+    width: 30%;
+  }
 }
 @media screen and (max-width: 450px) {
   .nav {
@@ -1412,7 +1417,8 @@ code {
   .Head_text {
     margin-top: 10px;
     margin-bottom: 150px;
-    font-size: 1em;
+    font-size: 0.95em;
+    width: 100vw;
   }
   .photo {
     position: absolute;
@@ -1442,11 +1448,11 @@ code {
   }
   .button_get_sch {
     margin-left: 25vw;
-    margin-top: 17.5vh;
-    margin-bottom: 16%;
+    margin-top: -6vh;
+    margin-bottom: 9.5%;
   }
   .logo_photo {
-    top: -30px;
+    top: -20px;
     left: 11vw;
     width: 30%;
   }
@@ -1455,6 +1461,7 @@ code {
   }
   .card {
     width: 70vw;
+    height: 70vh;
     min-width: 70vw;
     margin: 25px 0px 40px 11.5vw;
   }
@@ -1505,6 +1512,19 @@ code {
   .burger-lines {
     left: 20px;
     top: 17px;
+  }
+  .main_text {
+    padding: 20px 1px;
+  }
+  .title_welcome {
+    padding: 20px 0;
+  }
+  .text_i {
+    margin-top: 0;
+    padding: 20px 0;
+  }
+  .text_welc {
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 430px) {

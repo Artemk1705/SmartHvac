@@ -1466,7 +1466,7 @@ code {
   .card {
     width: calc(var(--index) * 38);
     height: calc(var(--index) * 60);
-    margin-left: 11.5vw;
+    margin-left: calc(var(--index) * 4.25);
   }
   .card_container {
     margin-bottom: 10vh;
@@ -1556,8 +1556,8 @@ code {
 @media screen and (max-width: 420px) {
   .card {
     width: calc(var(--index) * 38);
-    height: 75vw;
-    margin-left: calc(var(--index) * 1.25);
+    height: 75vh;
+    margin-left: calc(var(--index) * 4.25);
   }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,

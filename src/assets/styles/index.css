@@ -1465,8 +1465,8 @@ code {
   }
   .card {
     width: calc(var(--index) * 38);
-    height: calc(var(--index) * 100);
-    margin-left: calc(var(--index) * 0);
+    height: calc(var(--index) * 60);
+    margin-left: 11.5vw;
   }
   .card_container {
     margin-bottom: 10vh;
@@ -1546,11 +1546,6 @@ code {
     font-weight: bolder;
     margin-top: 2%;
   }
-  .card {
-    width: calc(var(--index) * 38);
-    height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 2.25);
-  }
   .Slog {
     font-size: 9px;
   }
@@ -1561,7 +1556,7 @@ code {
 @media screen and (max-width: 420px) {
   .card {
     width: calc(var(--index) * 38);
-    height: calc(var(--index) * 60);
+    height: 75vw;
     margin-left: calc(var(--index) * 1.25);
   }
   .swiper-pagination-fraction,
@@ -1573,11 +1568,6 @@ code {
   }
 }
 @media screen and (max-width: 410px) {
-  .card {
-    width: calc(var(--index) * 38);
-    height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 4.25);
-  }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
   .swiper-horizontal > .swiper-pagination-bullets,
@@ -1593,10 +1583,5 @@ code {
   .swiper-pagination-bullets.swiper-pagination-horizontal {
     max-width: 50%;
     margin-left: 25vw;
-  }
-  .card {
-    width: calc(var(--index) * 38);
-    height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 0);
   }
 }

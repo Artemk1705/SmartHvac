@@ -1453,7 +1453,7 @@ code {
   .button_get_sch {
     margin-left: 25vw;
     margin-top: -5vh;
-    margin-bottom: 9.5%;
+    margin-bottom: 13.5%;
   }
   .logo_photo {
     top: 0px;
@@ -1466,7 +1466,7 @@ code {
   .card {
     width: calc(var(--index) * 37);
     height: calc(var(--index) * 55);
-    margin-left: calc(var(--index) * 5);
+    margin-left: calc(var(--index) * 3);
   }
   .card_container {
     margin-bottom: 10vh;
@@ -1549,7 +1549,7 @@ code {
   .card {
     width: calc(var(--index) * 38);
     height: calc(var(--index) * 60);
-    margin-left: calc(var(--index) * 5);
+    margin-left: calc(var(--index) * 4.25);
   }
   .Slog {
     font-size: 9px;

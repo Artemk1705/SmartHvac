@@ -1594,4 +1594,9 @@ code {
     max-width: 50%;
     margin-left: 25vw;
   }
+  .card {
+    width: calc(var(--index) * 38);
+    height: calc(var(--index) * 60);
+    margin-left: calc(var(--index) * 0);
+  }
 }

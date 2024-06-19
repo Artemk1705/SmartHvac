@@ -1466,7 +1466,7 @@ code {
   .card {
     width: calc(var(--index) * 37);
     height: calc(var(--index) * 55);
-    margin-left: calc(var(--index) * 3);
+    margin-left: calc(var(--index) * 1.5);
   }
   .card_container {
     margin-bottom: 10vh;

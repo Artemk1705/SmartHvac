@@ -25,11 +25,11 @@ function Main() {
               <h1 className="head_text1">CREATING COMFORT & </h1>
               <h1 className="head_text2">ENSURING SATISFACTION</h1>
             </div>
-            <div className="button_get_sch">
+            <button className="button_get_sch">
               <a href="https://book.housecallpro.com/book/Smart-HVAC-LLC/873f1cd3570a4061a22cdf1c843d46ea?v2=true">
                 GET SCHEDULE
               </a>
-            </div>
+            </button>
           </div>
           <div>
             {isDesktopOrLaptop && (
@@ -57,7 +57,7 @@ function Main() {
               <div className="text_Smart">SMART</div>
               <div className="text_Hvac">HVAC</div>
             </div>{" "}
-            <div className="text_i">
+            <p className="text_i">
               - your trusted partner in air conditioning services! We provide
               high-quality installation, maintenance, repair, and upgrade
               solutions for air conditioning systems. Our team of experienced
@@ -65,7 +65,7 @@ function Main() {
               We take pride in our reputation as a reliable company that offers
               personalized attention to each client. Contact us today to embark
               on the journey towards an optimal climate that meets your needs.
-            </div>
+            </p>
           </div>
         </div>
         <div className="services_content">

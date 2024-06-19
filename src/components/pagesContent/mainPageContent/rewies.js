@@ -37,7 +37,7 @@ const ReviewBlock = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 450);
+      setIsMobile(window.innerWidth < 1100);
     };
 
     window.addEventListener("resize", handleResize);

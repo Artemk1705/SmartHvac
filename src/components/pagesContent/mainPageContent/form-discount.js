@@ -73,7 +73,7 @@ function FormDis() {
 
   return (
     <div className="dis_form_container">
-      <h2 className="dis_title">GET DISCOUNT</h2>
+      <h4 className="dis_title">GET DISCOUNT</h4>
       <div className="dis_quest_block">
         <p className="dis_p">Fill out the form and get 10% discount</p>
         <img

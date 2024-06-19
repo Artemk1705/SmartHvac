@@ -1,11 +1,16 @@
 import React, { useRef, useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import { Link, useLocation } from "react-router-dom";
 import "../../assets/styles/index.css";
 import "../../assets/styles/careers.css";
 import Burger from "./burger";
-import logoph from "../../assets/images/logomain.png";
+import logoComp from "../../assets/images/logomain.png";
+import logoTablet from "../../assets/images/SmartLogoTablet.png";
 
 function Navbar() {
+  const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 450 });
+  const isTabletOrMobile = useMediaQuery({ maxDeviceWidth: 449 });
+
   const location = useLocation();
   const currentPage = location.pathname;
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -26,13 +31,20 @@ function Navbar() {
     <nav className="nav">
       <div className="logos_bar">
         <Link to="/">
-          <div>
-            <img src={logoph} alt="logo" className="logo_photo" />
-          </div>
+          {isDesktopOrLaptop && (
+            <div>
+              <img src={logoComp} alt="logo" className="logo_photo" />
+            </div>
+          )}
+          {isTabletOrMobile && (
+            <div>
+              <img src={logoTablet} alt="logo" className="logo_photo" />
+            </div>
+          )}
         </Link>
       </div>
       <div className="nav_bar">
-        {windowWidth <= 849 ? (
+        {windowWidth <= 1390 ? (
           <Burger />
         ) : (
           <ul>

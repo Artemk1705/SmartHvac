@@ -142,3 +142,23 @@
     padding: 10px 0;
   }
 }
+@media screen and (max-width: 450px) {
+  .footer_block {
+    flex-direction: column-reverse;
+    padding: 50px 0;
+  }
+  .footer_icons {
+    width: 100vw;
+    justify-content: center;
+  }
+  .logo_block {
+    margin: 20px 0;
+  }
+  .auth_licence_block {
+    width: 100vw;
+  }
+  .footer_page_navigation {
+    width: 100vw;
+    align-items: center;
+  }
+}

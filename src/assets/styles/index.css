@@ -1546,13 +1546,16 @@ code {
     font-weight: bolder;
     margin-top: 2%;
   }
+  .card {
+    width: calc(var(--index) * 38);
+    height: calc(var(--index) * 60);
+    margin-left: calc(var(--index) * 5);
+  }
   .Slog {
     font-size: 9px;
   }
   .button_get_sch {
-    margin-left: 25vw;
-    margin-top: -7vh;
-    margin-bottom: 9.5%;
+    margin-top: -8.5vh;
   }
 }
 @media screen and (max-width: 420px) {

@@ -1557,7 +1557,7 @@ code {
   .card {
     width: calc(var(--index) * 38);
     height: 75vh;
-    margin-left: calc(var(--index) * 4.25);
+    margin-left: calc(var(--index) * 2.25);
   }
   .swiper-pagination-fraction,
   .swiper-pagination-custom,

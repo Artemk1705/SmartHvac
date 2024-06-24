@@ -144,6 +144,9 @@
   .auth_licence_block {
     white-space: nowrap;
   }
+  .footer_page_navigation {
+    padding-right: 10px;
+  }
 }
 @media screen and (max-width: 450px) {
   .footer_block {

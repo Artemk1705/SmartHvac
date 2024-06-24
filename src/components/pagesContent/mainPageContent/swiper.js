@@ -63,11 +63,11 @@ const SwiperComp = () => {
           spaceBetween: 50,
         },
         800: {
-          slidesPerView: 1,
+          slidesPerView: 2,
           slidesPerGroup: 1,
         },
         1000: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           slidesPerGroup: 1,
         },
         1100: {

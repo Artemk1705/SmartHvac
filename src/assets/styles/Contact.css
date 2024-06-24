@@ -217,6 +217,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .social_title {
+    font-size: 1.2em;
+  }
   .contact_title {
     font-size: 25px;
     margin-left: 29%;

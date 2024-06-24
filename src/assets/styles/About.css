@@ -339,7 +339,7 @@
     height: 100%;
   }
   .welcome_text {
-    width: 85vw;
+    width: 100vw;
     height: 100vh;
     font-size: 2em;
     margin-top: 5vh;
@@ -366,7 +366,7 @@
     border-radius: 15px;
   }
   .arrow_block {
-    left: 38vw;
+    left: 45vw;
   }
   .main_picture_about {
     width: 40vw;

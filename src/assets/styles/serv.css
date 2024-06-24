@@ -71,7 +71,11 @@
   justify-content: space-evenly;
   cursor: default;
 }
-
+@media screen and (max-width: 1390px) {
+  .sched_body {
+    margin-top: 150px;
+  }
+}
 @media screen and (max-width: 768px) {
   .p_service1 {
     background-color: rgba(30, 32, 93, 0.951);
@@ -102,9 +106,5 @@
     width: 140px;
     margin-left: 0px;
     font-size: 18px;
-  }
-
-  .sched_body {
-    margin-top: 150px;
   }
 }

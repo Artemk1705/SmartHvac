@@ -4,6 +4,9 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require("path");
 const serverless = require("serverless-http");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const app = express();
 
@@ -12,12 +15,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const transporter = nodemailer.createTransport({
-  host: "email-smtp.us-east-1.amazonaws.com",
-  port: 587,
+  host: process.env.AMAZON_HOST,
+  port: process.env.AMAZON_PORT,
   secure: false,
   auth: {
-    user: "AKIATS4UT5RWV6OVT7AU",
-    pass: "BMn/VSdtAgro+DHkQqq9BW6aOEGqZqkjVaN1enIe11B1",
+    user: process.env.AMAZON_MAILER_USER,
+    pass: process.env.AMAZON_MAILER_PASS,
   },
 });
 
